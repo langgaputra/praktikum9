@@ -4,6 +4,8 @@ public class Peminjaman {
   private Petugas petugas;
   private Buku buku;
 
+  // public Denda(Peminjaman, peminjam, int hariTerlambat);
+
   public Peminjaman(Peminjam peminjam, Petugas petugas, Buku buku) {
 
     if(peminjam.isLogin() == false) {

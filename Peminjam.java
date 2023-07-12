@@ -20,8 +20,9 @@ public abstract class Peminjam implements UserLogin {
     
   }
   
+
   public void addAntiDenda() {
-    // if(isLogin == true && );
+    // return this.getTagihan * 0;
   }
 
   public abstract void setKodePeminjam(String kodePeminjam);
